@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-
+import HeroImg from "../../assets/hero.png"
 const Hero = () => {
   return <div className="relative ">
     <div className="container py-16 sm:py-0 ">
@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
         </div>
         <div data-aos="zoom-in" data-aos-delay="500" className="relative z-30 order-1 sm:order-2 aos-init aos-animate" >
-          <img src="/src/assets/hero.png" alt="" className="w-full sm:scale-125 sm:translate-y-16" />
+          <img src={HeroImg} alt="" className="w-full sm:scale-125 sm:translate-y-16" />
         </div>
       </div>
     </div>

@@ -1,5 +1,10 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import BannerImgleafe from "../../assets/png/leaf.png"
+import BannerImgtomato from "../../assets/png/tomato.png"
+import BannerImglemon from "../../assets/png/lemon.png"
+import BannerImgapple from "../../assets/png/apple.png"
+import BannerImgkiwi from "../../assets/png/kiwi.png"
 const Banner = () => {
   return (
     <div className="container py-14 relative">
@@ -62,19 +67,19 @@ const Banner = () => {
       </div>
     </div>
     <div  data-aos="fade-right" className="absolute top-5 -left-16 sm:bottom-0 sm:left-0 opacity-50 sm:opacity-100 aos-init aos-animate">
-        <img data-aos="fade-right" src="/src/assets/png/leaf.png" alt="" className="max-w-[160px] aos-init aos-animate" />
+        <img data-aos="fade-right" src={BannerImgleafe} alt="" className="max-w-[160px] aos-init aos-animate" />
     </div>
     <div  data-aos="fade-right" className="absolute -bottom-16 -left-16 sm:bottom-0 sm:left-0 opacity-50 sm:opacity-100 aos-init">
-        <img  src="/src/assets/png/tomato.png" alt="" className="max-w-[280px]" />
+        <img  src={BannerImgtomato} alt="" className="max-w-[280px]" />
     </div>
     <div  data-aos="fade-left" className="absolute top-10 -right-16 sm:right-20 opacity-50 sm:opacity-100 aos-init aos-animate">
-        <img  src="/src/assets/png/lemon.png" alt="" className="max-w-[200px]" />
+        <img  src={BannerImglemon} alt="" className="max-w-[200px]" />
     </div>
     <div  data-aos="fade-left" className="hidden sm:block absolute bottom-0 right-0 aos-init aos-animate">
-        <img  src="/src/assets/png/apple.png" alt="" className="max-w-[200px]" />
+        <img  src={BannerImgapple} alt="" className="max-w-[200px]" />
     </div>
     <div  data-aos="fade" className="absolute top-1/2 -translate-y-1/2 left-1/3 -translate-x-1/2 opacity-50 sm:opacity-100 aos-init aos-animate">
-        <img  src="/src/assets/png/kiwi.png" alt="" className="max-w-[180px]" />
+        <img  src={BannerImgkiwi} alt="" className="max-w-[180px]" />
     </div>
     </div>
   );

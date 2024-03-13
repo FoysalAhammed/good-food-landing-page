@@ -23,7 +23,7 @@ const About = () => {
         </div>
       </div>
       <div className="absolute top-0 right-0 w-full">
-        <img src="/src/assets/vector-wave.png" alt="" className="mx-auto" />
+        <img src="../../assets/vector-wave.png" alt="" className="mx-auto" />
       </div>
     </div>
   );

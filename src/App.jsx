@@ -5,7 +5,7 @@ import Banner from "./components/Banner/Banner.jsx";
 import About from "./components/About/About.jsx";
 import Services from "./components/Services/Services.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-import Popup from "./components/Popup/Popup.jsx";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
